@@ -87,6 +87,7 @@ const Image = styled.img`
   display: block;
   transform-origin: 50% 75%;
   transition: transform 300ms ease-in;
+  will-change: transform;
   @media (prefers-reduced-motion: no-preference){
     ${Link}:hover &, ${Link}:focus & {
       transition: transform 150ms ease-out;
